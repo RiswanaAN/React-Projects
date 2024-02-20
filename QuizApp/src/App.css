@@ -1,0 +1,109 @@
+ body{
+    margin: 20px 0 20px;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.heading{
+    border: 1px solid darkslateblue;
+    background-color: darkslateblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+  
+}
+.formTag{
+    border: 1px solid darkslateblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+    width: 70%;
+    background-color: lavender;
+    border-radius: 20px;
+    border: none;
+}
+.questionH{
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+}
+.optionsDiv{
+    border: 1px solid lavender;
+    background-color: lavender;
+    padding: 10px;
+    margin: 10px;
+    height: 30px;
+    align-items: center;
+}
+.optionsDiv:hover{
+    color: aliceblue;
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+input[type="radio"]:checked{ 
+    accent-color: darkslateblue;
+}
+
+.labelName{
+    font-size: 18px;
+    margin: 10px;
+}
+.submitButton{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    font-size: 23px;
+    border-radius: 15px;
+    align-self: center;
+    box-shadow: grey 0px 3px 8px;
+}
+.submitButton:hover{
+    background-color: lavender;
+    border: 1px solid darkslateblue;
+    color: darkslateblue;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.questionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+}
+.result{
+    display: flex;
+    align-items: end;
+}
+.modal{
+    display: none;
+    height: 250px;
+    border: none;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: grey 0px 3px 8px;
+ 
+}
