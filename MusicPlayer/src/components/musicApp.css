@@ -1,0 +1,140 @@
+
+  .musicMainContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: black;
+    opacity: 0.9;
+    /* margin-bottom: 25px; */
+  }
+  .playContainer{
+    border: 1px solid white;
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    box-shadow: 2px 4px 6px grey;
+  }
+  .musicContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+    
+  }
+  .imageIcon{
+    width: 55px;
+    height: 55px;
+    border: 1px solid green;
+    border-radius: 50%;
+  }
+  .imageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    /* background-color: white; */
+    padding: 8px;
+    border-radius: 30px;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px grey;
+  }
+  .imageContainer :hover{
+    border: 1px solid whitesmoke;
+  }
+  .musicContainer :hover{
+    
+    opacity: 0.8;
+  }
+  .songDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  .imageIcon1{
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 2px 4px 6px black;
+  }
+  .toast-message {
+    background: darkblue;
+    color: #fff;
+    font-size: 20px;
+    width: 34vw;
+    padding: 30px 20px;
+  }
+  
+  .icon{
+    display: flex;
+    flex-direction: row;
+  }
+  .shuffleIcon{
+    font-size: 25px;
+    border: none;
+  }
+  .navBar{
+    display: flex;
+    width: 100%;
+    /* justify-content: end;   */
+    gap: 8px;
+    background-color: white;
+    /* margin-right: 10px; */
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    height: 70px;
+    justify-content: space-between;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    position: fixed;
+  }
+  .logoutButton{
+    display: flex;
+    background: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px 16px;
+    border-radius: 25px;
+    border: 1px solid #D4D3E8;
+    display: flex;
+    color: darkslateblue;
+    cursor: pointer;
+    text-align: center;
+  }
+  .profileDiv{
+    display: flex;
+    /* width: 100%; */
+    justify-content: start;
+    gap: 10px;
+  }
+  .profilePicture{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .profileName{
+    margin-top: 15px;
+    color: darkslateblue;
+    font-size: 20px;
+    font-weight: bolder;
+  }

@@ -1,0 +1,78 @@
+body{
+  background-color: antiquewhite;
+  
+}
+.container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading{
+  text-align: center;
+  font-size: 50px;
+  color: darkslategray;
+  margin-bottom: 20px;
+  
+}
+.counterValue{
+  border: 1px solid black;
+  width: 70%;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #fff;
+
+}
+.innerContainer{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.counterBtn1, .counterBtn2{
+  padding: 0 15px;
+  font-size: large;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: black ;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.counterBtn1:hover, .counterBtn2:hover {
+  background-color: #333;
+}
+
+.image{
+  width: 250px;
+  height: 250px; 
+  border-radius: 20px;
+  margin-top: 20px;
+  border: 2px solid #333;
+  
+}
+
+.unorderedList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.unorderedList li {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.unorderedList li:hover {
+  background-color: #ddd;
+}

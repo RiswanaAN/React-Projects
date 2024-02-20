@@ -1,0 +1,119 @@
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0; 
+}
+
+.container {
+    background-color: slategray;
+    flex-direction: column;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: auto;
+    border: none;
+    border-radius: 25px;
+    width: 550px;
+    margin-top: 100px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p{
+    display: flex;
+    justify-content: center; 
+    opacity: 0.6;
+}
+
+h1{
+  padding-left: 45px; 
+  
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttonSave {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    font-size: large;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px; 
+    cursor: pointer; 
+    margin-left: 30px;
+    transition: background-color 0.3s ease; 
+}
+
+.buttonSave:hover {
+    background-color: grey; 
+}
+
+
+.textField {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+    border-radius: 10px; 
+    border: 2px solid #3498db; 
+    text-align: center;
+    width: 100%; 
+    margin-top: 10px; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease;
+}
+
+.textField:focus {
+    outline: none; 
+    border-color: goldenrod; 
+}
+
+
+.listItems {
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    border: 1px solid white; 
+    border-radius: 10px;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 45px;
+    width: 455px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+
+.buttonEdit, .buttonDelete, .statusCheck{
+ 
+    text-align:center;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+    width: 55px;
+    margin-top: 10px; 
+    cursor: pointer; 
+    margin-left: 30px;
+    transition: background-color 0.3s ease; 
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    
+}
+.icon{
+    font-size: 20px;
+   
+}
+#listStatusStyle{
+    text-decoration: line-through;
+    color: red;
+    opacity: 0.9;
+}
