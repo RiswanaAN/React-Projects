@@ -1,0 +1,172 @@
+body{
+  background-color: tan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+  
+} 
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.headingContainer{
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 20px;
+  color: darkslategray;
+}
+
+.unorderedList{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 15px;
+}
+
+.listItems{
+  border: 1px solid black;
+  border: none;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  padding: 10px;
+  width: 250px;
+  height: 280px;
+  margin: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imageItem{
+  width: 130px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 2px solid #333
+}
+
+.nameTag, .email{
+    text-align: center;
+    margin-top: 5px; 
+    
+}
+
+.addButton {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 200px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.4s ease; 
+}
+
+.addButton:hover {
+  background-color: grey;
+  color: black;
+  
+}
+.formHeader{
+  color: darkslategray;
+}
+.employeeForm{
+  text-align: center;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  
+}
+
+input{
+  display: grid;
+  margin: 0 auto;
+  height: 25px;
+  width: 250px;
+  margin-bottom: 20px;
+  font-size: medium;
+  font-size: 10px;     
+}
+
+input::placeholder {
+  font: 15px sans-serif ;
+}
+
+button{
+  width: 100px;
+  margin-top: 15px;
+  font-size: medium;
+  background-color: black;
+  color: white;
+}
+
+.employeeForm input[type= "text"]{
+    border: 0;
+    font-size: 20px;
+    margin: 20 auto;
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid white ;
+    border-radius: 25px;
+}
+
+#btn{
+  border: 1px solid white; 
+  font: 15px sans-serif;
+  padding: 5px 10px;
+  text-align: center;
+  outline: none;
+  border-radius: 25px;
+  width: 200px;
+  transition: background-color 0.4s ease; 
+}
+#btn1{
+  border: 1px solid white; 
+  font: 15px sans-serif;
+  padding: 5px 10px;
+  text-align: center;
+  outline: none;
+  border-radius: 25px;
+  width: 200px;
+  margin-bottom: 10px;
+  transition: background-color 0.4s ease; 
+}
+#btn:hover{
+  background-color: #27251F;
+  cursor: pointer;
+  color: white;
+}
+#btn1:hover{
+  background-color: #27251F;
+  cursor: pointer;
+  color: white;
+}
+
+
+
